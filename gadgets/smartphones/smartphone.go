@@ -10,7 +10,7 @@ type Smartphone struct {
 }
 
 // CreateSmartphoneCMD
- CreateSmartphoneCMD struct {
+type CreateSmartphoneCMD struct {
 	Name          string `json:"name"`
 	Price         int    `json:"price"`
 	CountryOrigin string `json:"country_origin"`
